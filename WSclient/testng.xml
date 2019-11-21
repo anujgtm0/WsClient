@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Xcelarator Tests">
+	
+	
+	<test name="Connection test">
+	<classes>
+	<class name="tests.TestConnection"/>
+	</classes>
+	
+	</test>
+	
+	<test name="Boot Notification">
+	<classes>
+	<class name="tests.TestBootNotification"/>
+	</classes>
+	</test>
+	<test name="Start Transaction">
+	<classes>
+	<class name="tests.StartTransaction"/>
+	</classes>
+	</test>
+	<test name="Stop Transaction">
+	<classes>
+	<class name="tests.StopTransaction"/>
+	</classes>
+	</test>
+	
+	
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [softwaretestingmaterial]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BootNotification(failed)">
+    <classes>
+      <class name="tests.StartTransaction">
+        <methods>
+          <include name="testconnection" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.StartTransaction -->
+    </classes>
+  </test> <!-- BootNotification(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->

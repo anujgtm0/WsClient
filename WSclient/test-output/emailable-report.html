@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Xcelarator Tests</th></tr>
+<tr><td><a href="#t0">Connection test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">7,917</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Boot Notification</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">8,898</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Start Transaction</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">7,258</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Stop Transaction</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">7,429</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">8</th><th class="num">0</th><th class="num">0</th><th class="num">31,502</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Xcelarator Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Connection test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.TestConnection</td><td><a href="#m0">testconnection</a></td><td rowspan="3">1574315094116</td><td rowspan="3">5760</td></tr><tr class="passedeven"><td><a href="#m1">testconnection</a></td></tr><tr class="passedeven"><td><a href="#m2">testconnection</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Boot Notification &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.TestBootNotification</td><td><a href="#m3">testconnection</a></td><td rowspan="3">1574315100518</td><td rowspan="3">8534</td></tr><tr class="passedeven"><td><a href="#m4">testconnection</a></td></tr><tr class="passedeven"><td><a href="#m5">testconnection</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Start Transaction &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.StartTransaction</td><td><a href="#m6">testconnection</a></td><td rowspan="1">1574315109397</td><td rowspan="1">7158</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Stop Transaction &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.StopTransaction</td><td><a href="#m7">testconnection</a></td><td rowspan="1">1574315116653</td><td rowspan="1">7338</td></tr></tbody>
+</table>
+<h2>Connection test</h2><h3 id="m0">tests.TestConnection#testconnection</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>localhost</td><td>8887</td><td>/1234</td><td>yes</td><td>Connection Opened Successfully</td><td>Connection Opened Successfully</td><td>PASS</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.TestConnection#testconnection</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>localhost</td><td>1223</td><td>/1234</td><td>No</td><td>test</td><td>Connection request Rejected</td><td>SKIP</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.TestConnection#testconnection</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>localhost</td><td>8887</td><td>/1234</td><td>No</td><td></td><td></td><td>SKIP</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Boot Notification</h2><h3 id="m3">tests.TestBootNotification#testconnection</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>[
+  2,
+  &quot;766590&quot;,
+  &quot;BootNotification&quot;,
+  {
+    &quot;chargePointVendor&quot;: &quot;Greenlots&quot;,
+    &quot;chargePointModel&quot;: &quot;VirtualCP&quot;,
+    &quot;chargePointSerialNumber&quot;: &quot;1234&quot;,
+    &quot;chargeBoxSerialNumber&quot;: &quot;1234&quot;,
+    &quot;firmwareVersion&quot;: &quot;v101alpha&quot;,
+    &quot;iccid&quot;: &quot;iccid&quot;,
+    &quot;imsi&quot;: &quot;imsi&quot;,
+    &quot;meterType&quot;: &quot;Increasing&quot;,
+    &quot;meterSerialNumber&quot;: &quot;B7A4CA2E&quot;
+  }
+]</td><td>{&quot;currentTime&quot;:&quot;2019-11-21T05:42:29Z&quot;,&quot;interval&quot;:20,&quot;status&quot;:&quot;Accepted&quot;}</td><td>Yes</td><td>Accepted</td><td>Accepted</td><td>PASS</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.TestBootNotification#testconnection</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>[
+  2,
+  &quot;766590&quot;,
+  &quot;BootNotification&quot;,
+  {
+    &quot;chargePointVendor&quot;: &quot;Greenlots&quot;,
+    &quot;chargePointModel&quot;: &quot;VirtualCP&quot;,
+    &quot;chargePointSerialNumber&quot;: &quot;121321331&quot;,
+    &quot;chargeBoxSerialNumber&quot;: &quot;121211&quot;,
+    &quot;firmwareVersion&quot;: &quot;v101alpha&quot;,
+    &quot;iccid&quot;: &quot;iccid&quot;,
+    &quot;imsi&quot;: &quot;imsi&quot;,
+    &quot;meterType&quot;: &quot;Increasing&quot;,
+    &quot;meterSerialNumber&quot;: &quot;B7A4CA2E&quot;
+  }
+]</td><td>{&quot;currentTime&quot;:&quot;2019-11-20T05:51:39Z&quot;,&quot;interval&quot;:20,&quot;status&quot;:&quot;Accepted&quot;}</td><td>No</td><td>Rejected</td><td>Accepted</td><td>SKIP</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.TestBootNotification#testconnection</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>[
+  2,
+  &quot;766590&quot;,
+  &quot;BootNotification&quot;,
+  {
+    &quot;chargePointVendor&quot;: &quot;Greenlots&quot;,
+    &quot;chargePointModel&quot;: &quot;VirtualCP&quot;,
+    &quot;chargePointSerialNumber&quot;: &quot;121321331&quot;,
+    &quot;chargeBoxSerialNumber&quot;: &quot;1234&quot;,
+    &quot;firmwareVersion&quot;: &quot;v101alpha&quot;,
+    &quot;iccid&quot;: &quot;iccid&quot;,
+    &quot;imsi&quot;: &quot;imsi&quot;,
+    &quot;meterType&quot;: &quot;Increasing&quot;,
+    &quot;meterSerialNumber&quot;: &quot;B7A4CA2E&quot;
+  }
+]</td><td>{&quot;currentTime&quot;:&quot;2019-11-20T05:51:31Z&quot;,&quot;interval&quot;:20,&quot;status&quot;:&quot;Accepted&quot;}</td><td>No</td><td>Rejected</td><td>Accepted</td><td>SKIP</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Start Transaction</h2><h3 id="m6">tests.StartTransaction#testconnection</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>[
+  2,
+  &quot;867508&quot;,
+  &quot;StartTransaction&quot;,
+  {
+    &quot;connectorId&quot;: 1,
+    &quot;idTag&quot;: &quot;123456&quot;,
+    &quot;meterStart&quot;: 1000,
+    &quot;timestamp&quot;: &quot;2019-11-20T08:50:37.000Z&quot;
+  }
+]</td><td>{&quot;authorizedUserId&quot;:2,&quot;idTagInfo&quot;:{&quot;expiryDate&quot;:&quot;2019-12-21T11:06:02Z&quot;,&quot;status&quot;:&quot;Accepted&quot;},&quot;transactionId&quot;:43}</td><td>Yes</td><td>Accepted</td><td>Accepted</td><td>PASS</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Stop Transaction</h2><h3 id="m7">tests.StopTransaction#testconnection</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th></tr><tr class="param stripe"><td>123456</td><td>2000</td><td>2015-06-30T09:50:37.000Z</td><td>EmergenceyStop</td><td>{&quot;idTagInfo&quot;:{&quot;expiryDate&quot;:&quot;2019-12-21T11:06:02Z&quot;,&quot;status&quot;:&quot;Accepted&quot;}}</td><td>Yes</td><td>Accepted</td><td></td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

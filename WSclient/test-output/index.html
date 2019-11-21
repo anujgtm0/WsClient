@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Xcelarator_Tests" class="navigator-link">
+              <span class="suite-name border-passed">Xcelarator Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Xcelarator_Tests" class="navigator-link ">
+                    <span>C:\Users\anujg\eclipse-workspace\WSclient\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Xcelarator_Tests" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Xcelarator_Tests" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Xcelarator_Tests" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Xcelarator_Tests" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Xcelarator_Tests" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Xcelarator_Tests" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Xcelarator_Tests" class="hide-methods passed suite-Xcelarator_Tests"> (hide)</a> <!-- hide-methods passed suite-Xcelarator_Tests -->
+                      <a href="#" panel-name="suite-Xcelarator_Tests" class="show-methods passed suite-Xcelarator_Tests"> (show)</a> <!-- show-methods passed suite-Xcelarator_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Xcelarator_Tests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Xcelarator_Tests" title="tests.TestConnection" class="method navigator-link" hash-for-method="testconnection(localhost, 8887, /1234, yes, Connection Opened Successfully, Connection Opened Successfully, PASS)">testconnection(localhost, 8887, /1234, yes, Connection Opened Successfully, Connection Opened Successfully, PASS)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Xcelarator_Tests" title="tests.TestConnection" class="method navigator-link" hash-for-method="testconnection(localhost, 1223, /1234, No, test, Connection request Rejected, SKIP)">testconnection(localhost, 1223, /1234, No, test, Connection request Rejected, SKIP)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Xcelarator_Tests" title="tests.TestConnection" class="method navigator-link" hash-for-method="testconnection(localhost, 8887, /1234, No, , , SKIP)">testconnection(localhost, 8887, /1234, No, , , SKIP)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Xcelarator_Tests" title="tests.TestBootNotification" class="method navigator-link" hash-for-method="testconnection([
+  2,
+  &quot;766590&quot;,
+  &quot;BootNotification&quot;,
+  {
+    &quot;chargePointVendor&quot;: &quot;Greenlots&quot;,
+    &quot;chargePointM...)">testconnection([
+  2,
+  "766590",
+  "BootNotification",
+  {
+    "chargePointVendor": "Greenlots",
+    "chargePointM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Xcelarator_Tests" title="tests.TestBootNotification" class="method navigator-link" hash-for-method="testconnection([
+  2,
+  &quot;766590&quot;,
+  &quot;BootNotification&quot;,
+  {
+    &quot;chargePointVendor&quot;: &quot;Greenlots&quot;,
+    &quot;chargePointM...)">testconnection([
+  2,
+  "766590",
+  "BootNotification",
+  {
+    "chargePointVendor": "Greenlots",
+    "chargePointM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Xcelarator_Tests" title="tests.TestBootNotification" class="method navigator-link" hash-for-method="testconnection([
+  2,
+  &quot;766590&quot;,
+  &quot;BootNotification&quot;,
+  {
+    &quot;chargePointVendor&quot;: &quot;Greenlots&quot;,
+    &quot;chargePointM...)">testconnection([
+  2,
+  "766590",
+  "BootNotification",
+  {
+    "chargePointVendor": "Greenlots",
+    "chargePointM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Xcelarator_Tests" title="tests.StartTransaction" class="method navigator-link" hash-for-method="testconnection([
+  2,
+  &quot;867508&quot;,
+  &quot;StartTransaction&quot;,
+  {
+    &quot;connectorId&quot;: 1,
+    &quot;idTag&quot;: &quot;123456&quot;,
+    &quot;meter...)">testconnection([
+  2,
+  "867508",
+  "StartTransaction",
+  {
+    "connectorId": 1,
+    "idTag": "123456",
+    "meter...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Xcelarator_Tests" title="tests.StopTransaction" class="method navigator-link" hash-for-method="testconnection(123456, 2000, 2015-06-30T09:50:37.000Z, EmergenceyStop, {&quot;idTagInfo&quot;:{&quot;expiryDate&quot;:&quot;2019-12-21T11:06...)">testconnection(123456, 2000, 2015-06-30T09:50:37.000Z, EmergenceyStop, {"idTagInfo":{"expiryDate":"2019-12-21T11:06...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Xcelarator_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Xcelarator_Tests" class="panel Xcelarator_Tests">
+          <div class="suite-Xcelarator_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.StartTransaction</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testconnection([
+  2,
+  &quot;867508&quot;,
+  &quot;StartTransaction&quot;,
+  {
+    &quot;connectorId&quot;: 1,
+    &quot;idTag&quot;: &quot;123456&quot;,
+    &quot;meter...)">
+                  </a> <!-- testconnection([
+  2,
+  "867508",
+  "StartTransaction",
+  {
+    "connectorId": 1,
+    "idTag": "123456",
+    "meter...) -->
+                  <span class="method-name">testconnection</span>
+                  <span class="parameters">([
+  2,
+  "867508",
+  "StartTransaction",
+  {
+    "connectorId": 1,
+    "idTag": "123456",
+    "meterStart": 1000,
+    "timestamp": "2019-11-20T08:50:37.000Z"
+  }
+], {"authorizedUserId":2,"idTagInfo":{"expiryDate":"2019-12-21T11:06:02Z","status":"Accepted"},"transactionId":43}, Yes, Accepted, Accepted, PASS)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Xcelarator_Tests-class-passed -->
+          <div class="suite-Xcelarator_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TestConnection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testconnection(localhost, 8887, /1234, yes, Connection Opened Successfully, Connection Opened Successfully, PASS)">
+                  </a> <!-- testconnection(localhost, 8887, /1234, yes, Connection Opened Successfully, Connection Opened Successfully, PASS) -->
+                  <span class="method-name">testconnection</span>
+                  <span class="parameters">(localhost, 8887, /1234, yes, Connection Opened Successfully, Connection Opened Successfully, PASS)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testconnection(localhost, 1223, /1234, No, test, Connection request Rejected, SKIP)">
+                  </a> <!-- testconnection(localhost, 1223, /1234, No, test, Connection request Rejected, SKIP) -->
+                  <span class="method-name">testconnection</span>
+                  <span class="parameters">(localhost, 1223, /1234, No, test, Connection request Rejected, SKIP)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testconnection(localhost, 8887, /1234, No, , , SKIP)">
+                  </a> <!-- testconnection(localhost, 8887, /1234, No, , , SKIP) -->
+                  <span class="method-name">testconnection</span>
+                  <span class="parameters">(localhost, 8887, /1234, No, , , SKIP)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Xcelarator_Tests-class-passed -->
+          <div class="suite-Xcelarator_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.StopTransaction</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testconnection(123456, 2000, 2015-06-30T09:50:37.000Z, EmergenceyStop, {&quot;idTagInfo&quot;:{&quot;expiryDate&quot;:&quot;2019-12-21T11:06...)">
+                  </a> <!-- testconnection(123456, 2000, 2015-06-30T09:50:37.000Z, EmergenceyStop, {"idTagInfo":{"expiryDate":"2019-12-21T11:06...) -->
+                  <span class="method-name">testconnection</span>
+                  <span class="parameters">(123456, 2000, 2015-06-30T09:50:37.000Z, EmergenceyStop, {"idTagInfo":{"expiryDate":"2019-12-21T11:06:02Z","status":"Accepted"}}, Yes, Accepted, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Xcelarator_Tests-class-passed -->
+          <div class="suite-Xcelarator_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TestBootNotification</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testconnection([
+  2,
+  &quot;766590&quot;,
+  &quot;BootNotification&quot;,
+  {
+    &quot;chargePointVendor&quot;: &quot;Greenlots&quot;,
+    &quot;chargePointM...)">
+                  </a> <!-- testconnection([
+  2,
+  "766590",
+  "BootNotification",
+  {
+    "chargePointVendor": "Greenlots",
+    "chargePointM...) -->
+                  <span class="method-name">testconnection</span>
+                  <span class="parameters">([
+  2,
+  "766590",
+  "BootNotification",
+  {
+    "chargePointVendor": "Greenlots",
+    "chargePointModel": "VirtualCP",
+    "chargePointSerialNumber": "1234",
+    "chargeBoxSerialNumber": "1234",
+    "firmwareVersion": "v101alpha",
+    "iccid": "iccid",
+    "imsi": "imsi",
+    "meterType": "Increasing",
+    "meterSerialNumber": "B7A4CA2E"
+  }
+], {"currentTime":"2019-11-21T05:42:29Z","interval":20,"status":"Accepted"}, Yes, Accepted, Accepted, PASS)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testconnection([
+  2,
+  &quot;766590&quot;,
+  &quot;BootNotification&quot;,
+  {
+    &quot;chargePointVendor&quot;: &quot;Greenlots&quot;,
+    &quot;chargePointM...)">
+                  </a> <!-- testconnection([
+  2,
+  "766590",
+  "BootNotification",
+  {
+    "chargePointVendor": "Greenlots",
+    "chargePointM...) -->
+                  <span class="method-name">testconnection</span>
+                  <span class="parameters">([
+  2,
+  "766590",
+  "BootNotification",
+  {
+    "chargePointVendor": "Greenlots",
+    "chargePointModel": "VirtualCP",
+    "chargePointSerialNumber": "121321331",
+    "chargeBoxSerialNumber": "121211",
+    "firmwareVersion": "v101alpha",
+    "iccid": "iccid",
+    "imsi": "imsi",
+    "meterType": "Increasing",
+    "meterSerialNumber": "B7A4CA2E"
+  }
+], {"currentTime":"2019-11-20T05:51:39Z","interval":20,"status":"Accepted"}, No, Rejected, Accepted, SKIP)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testconnection([
+  2,
+  &quot;766590&quot;,
+  &quot;BootNotification&quot;,
+  {
+    &quot;chargePointVendor&quot;: &quot;Greenlots&quot;,
+    &quot;chargePointM...)">
+                  </a> <!-- testconnection([
+  2,
+  "766590",
+  "BootNotification",
+  {
+    "chargePointVendor": "Greenlots",
+    "chargePointM...) -->
+                  <span class="method-name">testconnection</span>
+                  <span class="parameters">([
+  2,
+  "766590",
+  "BootNotification",
+  {
+    "chargePointVendor": "Greenlots",
+    "chargePointModel": "VirtualCP",
+    "chargePointSerialNumber": "121321331",
+    "chargeBoxSerialNumber": "1234",
+    "firmwareVersion": "v101alpha",
+    "iccid": "iccid",
+    "imsi": "imsi",
+    "meterType": "Increasing",
+    "meterSerialNumber": "B7A4CA2E"
+  }
+], {"currentTime":"2019-11-20T05:51:31Z","interval":20,"status":"Accepted"}, No, Rejected, Accepted, SKIP)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Xcelarator_Tests-class-passed -->
+        </div> <!-- panel Xcelarator_Tests -->
+        <div panel-name="test-xml-Xcelarator_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\anujg\eclipse-workspace\WSclient\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Xcelarator Tests&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Connection test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TestConnection&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Connection test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Boot Notification&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TestBootNotification&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Boot Notification --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Start Transaction&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.StartTransaction&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Start Transaction --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Stop Transaction&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.StopTransaction&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Stop Transaction --&gt;
+&lt;/suite&gt; &lt;!-- Xcelarator Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Xcelarator_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Xcelarator Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Connection test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Boot Notification (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Start Transaction (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Stop Transaction (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Xcelarator_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Xcelarator Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Xcelarator_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Xcelarator Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Xcelarator_Tests');
+function tableData_Xcelarator_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testconnection')
+data.setCell(0, 2, 'tests.TestBootNotification')
+data.setCell(0, 3, 8534);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testconnection')
+data.setCell(1, 2, 'tests.StopTransaction')
+data.setCell(1, 3, 7338);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testconnection')
+data.setCell(2, 2, 'tests.StartTransaction')
+data.setCell(2, 3, 7158);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testconnection')
+data.setCell(3, 2, 'tests.TestConnection')
+data.setCell(3, 3, 5760);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testconnection')
+data.setCell(4, 2, 'tests.TestConnection')
+data.setCell(4, 3, 685);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testconnection')
+data.setCell(5, 2, 'tests.TestConnection')
+data.setCell(5, 3, 217);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testconnection')
+data.setCell(6, 2, 'tests.TestBootNotification')
+data.setCell(6, 3, 97);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testconnection')
+data.setCell(7, 2, 'tests.TestBootNotification')
+data.setCell(7, 3, 86);
+window.suiteTableData['Xcelarator_Tests']= { tableData: data, tableDiv: 'times-div-Xcelarator_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <div id="times-div-Xcelarator_Tests">
+              </div> <!-- times-div-Xcelarator_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Xcelarator_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Xcelarator Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Xcelarator_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Xcelarator_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestConnection</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testconnection(localhost, 8887, /1234, No, , , SKIP)</span>
+                <span class="method-start">1040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testconnection(localhost, 8887, /1234, yes, Connection Opened Successfully, Connection Opened Successfully, PASS)</span>
+                <span class="method-start">1730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testconnection(localhost, 1223, /1234, No, test, Connection request Rejected, SKIP)</span>
+                <span class="method-start">7537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7758 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestBootNotification</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8048 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testconnection([
+  2,
+  "766590",
+  "BootNotification",
+  {
+    "chargePointVendor": "Greenlots",
+    "chargePointM...)</span>
+                <span class="method-start">8132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testconnection([
+  2,
+  "766590",
+  "BootNotification",
+  {
+    "chargePointVendor": "Greenlots",
+    "chargePointM...)</span>
+                <span class="method-start">16669 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testconnection([
+  2,
+  "766590",
+  "BootNotification",
+  {
+    "chargePointVendor": "Greenlots",
+    "chargePointM...)</span>
+                <span class="method-start">16762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16866 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.StartTransaction</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16971 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testconnection([
+  2,
+  "867508",
+  "StartTransaction",
+  {
+    "connectorId": 1,
+    "idTag": "123456",
+    "meter...)</span>
+                <span class="method-start">17011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24171 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.StopTransaction</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24235 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testconnection(123456, 2000, 2015-06-30T09:50:37.000Z, EmergenceyStop, {"idTagInfo":{"expiryDate":"2019-12-21T11:06...)</span>
+                <span class="method-start">24267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31606 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
